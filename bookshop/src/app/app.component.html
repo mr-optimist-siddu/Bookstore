@@ -1,0 +1,36 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand" href="#" style="color:white">Book Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" style="color:white" routerLink="/books-list">Show Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:white" routerLink="/add-book">Add Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:white" href="#">Admin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:white" href="#">User</a>
+      </li>
+    </ul>
+    <span class="navbar-text text-bold" style="color:white">
+      Developed by Sidhartha
+    </span>
+  </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Angular 12 Book Store Using MEAN Stack</h1>
+    <p class="lead">This Book Store application is developed using MEAN Stack</p>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
